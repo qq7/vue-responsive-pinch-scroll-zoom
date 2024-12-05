@@ -449,7 +449,7 @@ watch(
     @touchstart="startTouchDrag"
     @touchmove="doTouchDrag"
     @wheel="doWheelScale"
-    @keydown="onKeyPress"
+    @keydown.+.-.left.right.up.down="onKeyPress"
     :tabindex="fixedTabindex"
     :style="componentStyle"
   >
